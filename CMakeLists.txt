@@ -31,7 +31,7 @@ include_directories(opentoonz_plugin_utility/include
 link_directories("${OpenCV_LIBS}")
 
 ### Compile plugin
-set(PLUGIN_NAME kmeans_posterize)
+set(PLUGIN_NAME KmeansPosterize)
 set(PLUGIN_VENDOR hiking)
 set(SOURCES
         src/main.cpp)
